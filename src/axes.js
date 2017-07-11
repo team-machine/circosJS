@@ -35,7 +35,8 @@ const _buildAxesData = (conf) => {
     return aggregator
   }, [])
 }
-exports._buildAxesData = _buildAxesData
+//exports._buildAxesData = _buildAxesData
+export default _buildAxesData;
 
 export const renderAxes = (parentElement, conf, instance, scale) => {
   const axes = _buildAxesData(conf)
