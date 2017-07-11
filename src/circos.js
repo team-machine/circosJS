@@ -109,4 +109,5 @@ const Circos = (conf) => {
   return instance
 }
 
-module.exports = Circos
+//module.exports = Circos
+export default Circos
